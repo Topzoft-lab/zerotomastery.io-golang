@@ -15,9 +15,9 @@ import "fmt"
 
 func main() {
 	//* Use a `switch` statement to print the following:
-	
+	age := 5;
 
-	switch age := 5;{
+	switch {
 	case age == 0:
 		fmt.Println("newborn")
 	case age >= 1 && age <= 3:
